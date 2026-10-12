@@ -15,6 +15,13 @@ a hands-free solution using voice commands for home device control.
 - ROS (conceptual)
 - Webots (conceptual simulation)
 
+   ## 🔌 Hardware Prerequisites
+To use this system, your machine requires:
+* **Working Microphone:** For capturing spoken voice commands.
+* **Audio Output (Speakers/Headphones):** To listen to system responses.
+* **Stable Internet Connection:** Required if the SpeechRecognition API routes requests to online speech engines.
+
+
 ## System Architecture
 Voice Input → Speech Recognition → Command Parser → Actuator Module → Device Control
 
